@@ -1,0 +1,11 @@
+{
+    "name": "Month of Code",
+    "image": "python:3.8",
+    "extensions": [
+        "ms-python.python"
+    ],
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash" 
+    },
+    "postCreateCommand": "pip install -r requirements.txt"
+}
